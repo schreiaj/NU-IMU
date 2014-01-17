@@ -8,7 +8,7 @@ Requires [http://www.varesano.net/files/FreeIMU-20121122_1126.zip]
 
 If you are using the multiwii you need to modify the FreeIMU.h to look like
 
-
+```
   // Uncomment the appropriated version of FreeIMU you are using
   //#define FREEIMU_v01
   //#define FREEIMU_v02
@@ -25,4 +25,4 @@ If you are using the multiwii you need to modify the FreeIMU.h to look like
   //#define SEN_10183 //9 Degrees of Freedom - Sensor Stick  SEN-10183 http://www.sparkfun.com/products/10183
   //#define ARDUIMU_v3 //  DIYDrones ArduIMU+ V3 http://store.diydrones.com/ArduIMU_V3_p/kt-arduimu-30.htm or https://www.sparkfun.com/products/11055
   #define GEN_MPU6050 // Generic MPU6050 breakout board. Compatible with GY-521, SEN-11028 and other MPU6050 wich have the MPU6050 AD0 pin connected to GND.
-
+```
